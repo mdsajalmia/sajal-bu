@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a, li {
+    color: white;
+}
+.resume {
+    color: black;
+    border: 1px solid tomato;
+    padding: 10px 25px;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    gap: 10px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, section {
+    margin-bottom: 100px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 60%;
+}
+#skills {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .skill h2 {
+    color: #3498db;
+  }
+  
+  .skill p {
+    color: #333;
+  }
+  
